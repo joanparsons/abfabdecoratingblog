@@ -2,7 +2,8 @@
 layout: post
 title:  "Fall Inspirations"
 date:   2012-09-07 22:03:28
-categories: [caramel, colour, curtains, 'did you know?', exterior, fabric, fall, furniture, interior, lighting, plants, seasonal, staging, summer]
+category: update
+tags: [caramel, colour, curtains, 'did you know?', exterior, fabric, fall, furniture, interior, lighting, plants, seasonal, staging, summer]
 ---
 
 I cannot believe it .... summer is almost over and fall is just around the corner, already??!!  The evenings are turning chilly, the leaves are beginning to fall and that nip is in the air. 

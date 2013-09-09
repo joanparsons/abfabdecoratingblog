@@ -2,7 +2,8 @@
 layout: post
 title:  "Welcome - Pull up a chair...."
 date:   2012-04-14 22:03:28
-categories: [colour, exterior, fabric, furniture, interior, lighting, staging]
+category: update
+tags: [colour, exterior, fabric, furniture, interior, lighting, staging]
 ---
 
 A gorgeous chic upholstered chair, or your fave comfy antique chair that belonged to your granny .....
