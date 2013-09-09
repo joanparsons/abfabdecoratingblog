@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Colour Confidence and How to Achieve It"
-date:   2012-10-21 22:03:28
-category: update
+date:   2012-10-21
+categories: blog
 tags: [colour, curtains, fabric, furniture, lighting]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome - Pull up a chair...."
-date:   2012-04-14 22:03:28
-category: update
+date:   2012-04-14
+categories: blog
 tags: [colour, exterior, fabric, furniture, interior, lighting, staging]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Fall Inspirations"
-date:   2012-09-07 22:03:28
-category: update
+date:   2012-09-07
+categories: blog
 tags: [caramel, colour, curtains, 'did you know?', exterior, fabric, fall, furniture, interior, lighting, plants, seasonal, staging, summer]
 ---
 

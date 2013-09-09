@@ -4,7 +4,7 @@ pygments: true
 paginate: 10
 auto: true
 markdown: redcarpet
-permalink: /blog/:title
+permalink: /:categories/:year/:title
 
 name: "Absolutely Fabulous Decorating | Creating beautiful, functional spaces"
 description: "Creating beautiful, functional spaces"
@@ -22,19 +22,18 @@ prose:
           label: "Add Category"
           placeholder: "Choose category"
           options:
-            - name: "Update"
-              value: "update"
-            - name: "Portfolio Update"
-              value: "portfolio-update"
+            - name: "Blog"
+              value: "blog"
+            - name: "Portfolio"
+              value: "portfolio"
       - name: "layout"
         field:
           element: "hidden"
-          value: "default"
+          value: "post"
       - name: "title"
         field:
           element: "text"
           label: "Title"
-          placeholder: "Enter the post's title here"
           value: ""
       - name: "tags"
         field:
