@@ -1,0 +1,10 @@
+name: AbFabDecorating
+description: "AbFabDecorating's Corporate Site"
+url: http://www.abfabdecorating.com
+safe: true
+lsi: false
+pygments: true
+paginate: 10
+auto: true
+markdown: redcarpet
+permalink: /blog/:title
