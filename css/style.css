@@ -2,64 +2,12 @@
 ---
 
 {% include navbar.css %}
-
-body {background-color: #F1F1F1;}
-
-#content {
-  background-color: white;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 30px;
-}
-.page-title {font-size: 30px;}
-
-#home-page-feature-box {
-  color: #fff;
-  background: #ccc url({{site.baseurl}}/images/bg-featured.png) repeat top left;
-  margin-top: -26px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-#home-page-feature-box .page-welcome {font-size: 18px;}
-#home-page-feature-box a {color: #C1321D;}
-#home-page-content {background-color: white;}
-#home-page-content .feature-header {font-size: 16px;}
-#home-page-mini-features {
-  background: url({{site.baseurl}}/images/bg-minifeatures.png) repeat top left;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  color: #fff;
-}
-#mini-inside {
-  border: 1px dashed #555;
-}
-#mini-inside .block-title {
-  text-transform: uppercase;
-  font-size: 12px;
-  text-align: center;
-}
-#mini-inside .block-text {
-  color: #999999;
-  font-size: 13px;
-}
-#mini-inside a {
-  color:#fff;
-  text-decoration: underline;
-  font-size: 12px;
-}
-
-#hits-from-blog .post-title {
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-}
-#hits-from-blog .read-more-link {padding-left:5px;}
-
-#posts .post-title a {
-  color: black;
-}
-.post-meta {
-  background: #f4f4f4;
-}
-
+{% include home_page.css %}
 {% include footer.css  %}
+{% include general_page.css %}
+
+.page-title {font-size: 30px;}
+#posts .post-title a {color: black;}
+.post-meta {background: #f4f4f4;}
+
+
