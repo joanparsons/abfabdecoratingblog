@@ -36,7 +36,7 @@
 
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav pull-left">
-          <li><a href="{{site.baseurl}}">Creating beautiful, functional spaces</a></li>
+          <li><a href="{{site.baseurl}}/">Creating beautiful, functional spaces</a></li>
         </ul>
         <ul class="nav navbar-nav pull-right">
           <li><a href="{{ site.baseurl }}/about">About</a></li>
@@ -51,24 +51,7 @@
 
       {{ content }}
 
-      <div class="footer">
-        <p>
-          CONSULTATION BY APPOINTMENT
-
-          info@abfabdecorating.com
-          587.352.7370
-
-          RECENT POSTS
-
-          Colour Confidence – (and how to achieve it)
-          Fall Inspirations
-          Welcome! Pull up a Chair ….
-
-          STAY IN TOUCH!
-
-          Connect on Facebook  Subscribe to our RSS feed
-        </p>
-      </div>
+      {% include footer.html %}
 
     </div>
 
