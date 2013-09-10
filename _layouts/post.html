@@ -10,10 +10,15 @@ layout: default
       <h1 class='page-title'>{{ page.title }}</h1>
       <p class='post-meta'>
         By Joan Parsons on {{ page.date | date_to_string }}.
-        Tags: |
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">{{tag}}</a> |
-        {% endfor %}
+        
+        {% if tags_list.first == null %}
+          No tags.
+        {% else %}
+          Tags: |
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">{{tag}}</a> |
+          {% endfor %}
+        {% endif %}
       </p>
     </div>
 
