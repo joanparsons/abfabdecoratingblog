@@ -1,14 +1,7 @@
 ---
 ---
 
-.navbar-default {
-  padding: 15px 0px;
-  background: transparent url({{site.baseurl}}/images/bg-ripple-header.png) repeat left bottom;
-}
-.navbar-default .navbar-brand {color: white;}
-.navbar-default {border: none;}
-.navbar-default .navbar-nav>li>a {color: white;}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {color: #777777;}
+{% include navbar.css %}
 
 body {background-color: #F1F1F1;}
 
