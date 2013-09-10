@@ -1,25 +1,31 @@
 ---
-layout: default
+published: true
+layout: page
+permalink: blog
+title: AbFabDecorating Blog
 ---
 
 <div class='row'>
 
   <div class='col-lg-9'>
 
-    <div class="page-header">
-      <h1 class='page-title'>{{ page.title }}</h1>
-      <p class='post-meta'>
-        By Joan Parsons on {{ page.date | date_to_string }}.
-        Tags: |
-        {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">{{tag}}</a> |
-        {% endfor %}
-      </p>
-    </div>
-
-    <div class="post">
-      {{ content }}
-    </div>
+    <ul id="posts" class='list-unstyled'>
+      {% for post in site.categories.blog limit:1000 %}
+        <li>
+          <h2 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class='post-meta'>
+            By Joan Parsons on {{ post.date | date_to_string }}.
+            Tags: |
+            {% for tag in post.tags %}
+              <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">{{tag}}</a> |
+            {% endfor %}
+          </p>
+          <hr />
+          <p>{{post.excerpt}}&nbsp;&nbsp;<a class='read-more-link' href="{{ post.url }}">&raquo; Read more...</a></p>
+        </li>
+        <br />
+      {% endfor %}
+    </ul>
 
   </div>
 
@@ -49,6 +55,5 @@ layout: default
       {% assign tags_list = nil %}
     </div>
   </div>
-
 
 </div>

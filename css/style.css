@@ -59,6 +59,14 @@ body {background-color: #F1F1F1;}
 }
 #hits-from-blog .read-more-link {padding-left:5px;}
 
+#posts .post-title a {
+  color: black;
+}
+.post-meta {
+  background: #f4f4f4;
+}
+
+
 #footer-widgets {
   padding: 20px 0px;
   margin-top: 20px;
