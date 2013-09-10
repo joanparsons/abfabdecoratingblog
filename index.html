@@ -84,9 +84,9 @@ title: Home
 
       <ul id='hits-from-blog' class='list-unstyled'>
         {% for post in site.tags.featured limit:2 %}
-          <li><a class='post-title' href="{{ post.url }}">{{ post.title }}</a></li>
+          <li><a class='post-title' href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
           <p>{{post.excerpt}}</p>
-          <p><a class='read-more-link' href="{{ post.url }}">...read more...</a></p>
+          <p><a class='read-more-link' href="{{site.baseurl}}{{ post.url }}">...read more...</a></p>
         {% endfor %}
       </ul>
 
