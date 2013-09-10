@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    {% if page.title %}
+      <title>{{ page.title }} | Absolutely Fabulous Decorating</title>
+    {% else %}
+      <title>{{ site.name }}</title>
+    {% endif %}
+
+    <link rel='alternate' type='application/rss+xml' title='RSS' href='{{ site.url }}/blog.rss' />
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  </head>
+
+  <body>
+    {% include navbar.html %}
+    {{ content }}
+    {% include footer.html %}
+    {% include analytics.html %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/limited-bootstrap.min.js"></script>
+  </body>
+
+</html>

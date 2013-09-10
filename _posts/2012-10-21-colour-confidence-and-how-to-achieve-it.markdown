@@ -3,7 +3,7 @@ layout: post
 title:  "Colour Confidence and How to Achieve It"
 date:   2012-10-21
 categories: blog
-tags: [colour, curtains, fabric, furniture, lighting]
+tags: [colour, curtains, fabric, furniture, lighting, featured]
 ---
 
 Enjoying Fall?? The colours are absolutely outstanding - but we know what happens after fall - there is only one colour worth mentioning - white!

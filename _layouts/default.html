@@ -1,62 +1,7 @@
-<!DOCTYPE html>
-<html>
+---
+layout: page_skeleton
+---
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    {% if page.title %}
-      <title>{{ page.title }} | Absolutely Fabulous Decorating</title>
-    {% else %}
-      <title>{{ site.name }}</title>
-    {% endif %}
-
-    <link rel='alternate' type='application/rss+xml' title='RSS' href='{{ site.url }}/blog.rss' />
-
-    <meta name="viewport" content="width=device-width">
-
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-default" role="navigation">
-
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{site.baseurl}}/">AbFabDecorating</a>
-      </div>
-
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav pull-left">
-          <li><a href="{{site.baseurl}}/">Creating beautiful, functional spaces</a></li>
-        </ul>
-        <ul class="nav navbar-nav pull-right">
-          <li><a href="{{ site.baseurl }}/about">About</a></li>
-          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-          <li><a href="{{ site.baseurl }}/services">Services</a></li>
-          <li><a href="{{ site.baseurl }}/portfolio">Portfolio</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </nav>
-
-    <div class="container">
-
-      {{ content }}
-
-      {% include footer.html %}
-
-    </div>
-
-    {% include analytics.html %}
-
-  </body>
-
-</html>
+<div class="container" id='content'>
+  {{ content }}
+</div>

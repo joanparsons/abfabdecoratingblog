@@ -1,0 +1,82 @@
+.navbar-default {
+  padding: 15px 0px;
+  background: transparent url(/images/bg-ripple-header.png) repeat left bottom;
+}
+.navbar-default .navbar-brand {color: white;}
+.navbar-default {border: none;}
+.navbar-default .navbar-nav>li>a {color: white;}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {color: #777777;}
+
+body {background-color: #F1F1F1;}
+
+#content {
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+.page-title {font-size: 30px;}
+
+#home-page-feature-box {
+  color: #fff;
+  background: #ccc url(/images/bg-featured.png) repeat top left;
+  margin-top: -26px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#home-page-feature-box .page-welcome {font-size: 18px;}
+#home-page-feature-box a {color: #C1321D;}
+#home-page-content {background-color: white;}
+#home-page-content .feature-header {font-size: 16px;}
+#home-page-mini-features {
+  background: url(/images/bg-minifeatures.png) repeat top left;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #fff;
+}
+#mini-inside {
+  border: 1px dashed #555;
+}
+#mini-inside .block-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+#mini-inside .block-text {
+  color: #999999;
+  font-size: 13px;
+}
+#mini-inside a {
+  color:#fff;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+#hits-from-blog .post-title {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+#hits-from-blog .read-more-link {padding-left:5px;}
+
+#footer-widgets {
+  padding: 20px 0px;
+  margin-top: 20px;
+  background: url(/images/bg-ripple-footer-widgets.png) repeat top left;
+}
+.footer-widget-title {
+  color: #aaa8a8;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.footer-widget-text {font-size: 14px;}
+.footer-recent-posts {
+  font-size: 12px;
+  color: #C1321D;
+}
+#footer {
+  padding: 25px 0px;
+  background: url(/images/bg-ripple-footer.png) repeat top left;
+}
+#footer, #footer a {color: #999;}
+#footer a {text-decoration: underline;}

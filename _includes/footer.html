@@ -1,18 +1,44 @@
-<div class="footer">
-  <p>
-    CONSULTATION BY APPOINTMENT
+<div id='footer-widgets'>
 
-    info@abfabdecorating.com
-    587.352.7370
+  <div class='container'>
+    <div class='row'>
 
-    RECENT POSTS
+      <div class='col-lg-4'>
+        <h3 class='footer-widget-title'>Consultation by Appointment</h3>
+        <p class='footer-widget-text'>info@abfabdecorating.com<p>
+        <p class='footer-widget-text'>416.992.8243</p>
+      </div>
 
-    Colour Confidence – (and how to achieve it)
-    Fall Inspirations
-    Welcome! Pull up a Chair ….
+      <div class='col-lg-4'>
+        <h3 class='footer-widget-title'>Recent Posts</h3>
+        <ul>
+          {% for post in site.categories.blog limit:3 %}
+            <li><a class='footer-recent-posts' href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
 
-    STAY IN TOUCH!
+      <div class='col-lg-4'>
+        <h3 class='footer-widget-title'>Stay in touch!</h3>
+        <a href="http://www.facebook.com/AbsolutelyFabulousDecorating" class="facebook" title="Connect on Facebook" target="_blank">
+          <img src="/images/social-fb.png" alt='Connect on Facebook!'>
+        </a>
+        <a href="http://feeds.feedburner.com/AbsolutelyFabulousDecorating" class="subscribe" target="_blank" title="Subscribe to our RSS feed">
+          <img src="/images/social-rs.png" alt="Subscribe to our RSS feed">
+        </a>
+      </div>
 
-    Connect on Facebook  Subscribe to our RSS feed
-  </p>
+    </div>
+  </div>
+
+</div>
+
+<div id='footer'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-lg-12'>
+        <a href="{{ site.baseurl }}/">Absolutely Fabulous Decorating</a> © 2012 - {{site.time | date: "%Y" }}. All Rights Reserved.
+      </div>
+    </div>
+  </div>
 </div>
