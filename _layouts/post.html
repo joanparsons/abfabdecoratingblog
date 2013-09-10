@@ -15,7 +15,7 @@ layout: default
       <p class='post-meta'>
         By Joan Parsons on {{ page.date | date_to_string }}.
         
-        {% if this_posts_tag_list.first == null %}
+        {% if this_posts_tag_list == empty or this_posts_tag_list == null %}
           No tags.
         {% else %}
           Tags: |
