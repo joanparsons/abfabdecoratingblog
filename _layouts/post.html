@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign site_tags_list = site.tags %}
+{% assign this_posts_tag_list = page.tags %}
+
+
 <div class='row'>
 
   <div class='col-lg-9'>
@@ -11,11 +15,11 @@ layout: default
       <p class='post-meta'>
         By Joan Parsons on {{ page.date | date_to_string }}.
         
-        {% if tags_list.first == null %}
+        {% if this_posts_tag_list.first == null %}
           No tags.
         {% else %}
           Tags: |
-          {% for tag in page.tags %}
+          {% for tag in this_posts_tag_list %}
             <a href="{{ site.baseurl }}/tags#{{ tag }}-ref">{{tag}}</a> |
           {% endfor %}
         {% endif %}
@@ -35,25 +39,25 @@ layout: default
     </div>
 
     <div class='list-group'>
-      {% assign tags_list = site.tags %}
 
-      {% if tags_list.first[0] == null %}
-        {% for tag in tags_list %}
+      {% if site_tags_list.first[0] == null %}
+        {% for tag in site_tags_list %}
           <a href="{{ site.baseurl }}/tags#{{ tag }}-ref" class='list-group-item'>
             {{ tag }} <span class='badge'>{{ site.tags[tag].size }}</span>
           </a>
         {% endfor %}
       {% else %}
-        {% for tag in tags_list %}
+        {% for tag in site_tags_list %}
           <a href="{{ site.baseurl }}/tags#{{ tag[0] }}-ref" class='list-group-item'>
             {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
           </a>
         {% endfor %}
       {% endif %}
 
-      {% assign tags_list = nil %}
     </div>
   </div>
 
-
 </div>
+
+{% assign this_posts_tag_list = nil %}
+{% assign site_tags_list = nil %}
