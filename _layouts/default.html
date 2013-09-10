@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     {% if page.title %}
-      <title>{{ page.title }}</title>
+      <title>{{ page.title }} | Absolutely Fabulous Decorating</title>
     {% else %}
       <title>{{ site.name }}</title>
     {% endif %}
@@ -15,36 +15,59 @@
 
     <meta name="viewport" content="width=device-width">
 
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   </head>
 
   <body>
 
-    <div class="site">
+    <nav class="navbar navbar-default" role="navigation">
 
-      <div class="header">
-        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-        <a class="extra" href="/">home</a>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{site.baseurl}}">AbFabDecorating</a>
       </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav pull-left">
+          <li><a href="{{site.baseurl}}">Creating beautiful, functional spaces</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="container">
 
       {{ content }}
 
       <div class="footer">
-        <div class="contact">
-          <p>
-            Your Name<br />
-            What You Are<br />
-            you@example.com
-          </p>
-          <p><a class='extra' href='{{site.baseurl}}/blog.rss'>Subscribe via RSS</a></p>
-        </div>
-        <div class="contact">
-          <p>
-            <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-            <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-          </p>
-        </div>
+        <p>
+          CONSULTATION BY APPOINTMENT
+
+          info@abfabdecorating.com
+          587.352.7370
+
+          RECENT POSTS
+
+          Colour Confidence – (and how to achieve it)
+          Fall Inspirations
+          Welcome! Pull up a Chair ….
+
+          STAY IN TOUCH!
+
+          Connect on Facebook  Subscribe to our RSS feed
+        </p>
       </div>
 
     </div>
