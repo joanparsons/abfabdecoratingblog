@@ -12,7 +12,7 @@ title: AbFabDecorating Blog
     <ul id="posts" class='list-unstyled'>
       {% for post in site.categories.blog limit:1000 %}
         <li>
-          <h2 class='post-title'><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2 class='post-title'><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
           <p class='post-meta'>
             By Joan Parsons on {{ post.date | date_to_string }}.
             Tags: |
@@ -21,7 +21,7 @@ title: AbFabDecorating Blog
             {% endfor %}
           </p>
           <hr />
-          <p>{{post.excerpt}}&nbsp;&nbsp;<a class='read-more-link' href="{{ post.url }}">&raquo; Read more...</a></p>
+          <p>{{post.excerpt}}&nbsp;&nbsp;<a class='read-more-link' href="{{site.baseurl}}{{ post.url }}">&raquo; Read more...</a></p>
         </li>
         <br />
       {% endfor %}
