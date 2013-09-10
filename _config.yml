@@ -4,11 +4,13 @@ pygments: true
 paginate: 10
 auto: true
 markdown: redcarpet
+
 permalink: /:categories/:year/:title
+url: http://joanparsons.github.io/abfabdecoratingblog
+baseurl: /abfabdecoratingblog
 
 name: "Absolutely Fabulous Decorating | Creating beautiful, functional spaces"
 description: "Creating beautiful, functional spaces"
-url: http://joanparsons.github.io/abfabdecoratingblog
 
 prose:
   rooturl: '_posts'
