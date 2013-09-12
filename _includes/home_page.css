@@ -37,10 +37,10 @@
 }
 
 #mini-inside a {
-  color:#fff;
-  text-decoration: underline;
+  color:#c1321d;
   font-size: 12px;
 }
+#mini-inside a:hover { text-decoration: underline; }
 
 #hits-from-blog .post-title {
   color: black;
