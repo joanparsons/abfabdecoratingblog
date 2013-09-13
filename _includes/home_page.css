@@ -26,22 +26,22 @@
   border: 1px dashed #555;
   font-size: 12px;
 }
-
 #mini-inside .block-title {
   text-transform: uppercase;
   text-align: center;
   font-size: 13px;
 }
-
 #mini-inside .block-text {
   color: #999999;
   font-size: 13px;
 }
+#mini-inside a, #mini-inside a:hover {  color:#c1321d;}
 
 #hits-from-blog .post-title {
   color: black;
   font-size: 16px;
   font-weight: bold;
 }
+
 
 #hits-from-blog .read-more-link {padding-left:5px;}
