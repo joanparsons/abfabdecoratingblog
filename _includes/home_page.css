@@ -34,11 +34,7 @@
   font-size: 13px;
 }
 
-#mini-inside a {
-  color:#c1321d;
-  font-size: 12px;
-}
-#mini-inside a:hover { text-decoration: underline; }
+#mini-inside a { font-size: 12px; }
 
 #hits-from-blog .post-title {
   color: black;
