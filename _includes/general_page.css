@@ -6,3 +6,7 @@ body {background-color: #F1F1F1;}
   padding-right: 40px;
   padding-bottom: 30px;
 }
+
+#content a, #content a:hover {
+  color:#c1321d;
+}
