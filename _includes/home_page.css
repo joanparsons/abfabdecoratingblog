@@ -30,6 +30,7 @@
 #mini-inside .block-title {
   text-transform: uppercase;
   text-align: center;
+  font-size: 13px;
 }
 
 #mini-inside .block-text {
