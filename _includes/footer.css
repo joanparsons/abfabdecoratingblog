@@ -21,11 +21,8 @@
 
 .footer-widget-text {font-size: 14px;}
 
-.footer-recent-posts {
+.footer-recent-posts, .footer-recent-posts:hover {
   font-size: 12px;
-  color: #C1321D;
-}
-.footer-recent-posts a:hover  {
   color: #C1321D;
 }
 
