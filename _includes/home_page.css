@@ -10,7 +10,10 @@
 
 #home-page-feature-box a {color: #C1321D;}
 
-.feature-header {font-size: 16px;}
+.feature-header {
+  font-size: 16px;
+  text-align: center;
+}
 
 #home-page-mini-features {
   background: url({{site.baseurl}}/images/bg-minifeatures.png) repeat top left;
