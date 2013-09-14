@@ -1,6 +1,37 @@
 ---
 ---
 callback([
+
+  {
+    "text": "Home",
+    "href": "{{site.baseurl}}/"
+  },
+
+  {
+    "text": "About me",
+    "href": "{{site.baseurl}}/about"
+  },
+
+  {
+    "text": "Contact us",
+    "href": "{{site.baseurl}}/contact"
+  },
+
+  {
+    "text": "Our services",
+    "href": "{{site.baseurl}}/services"
+  },
+
+  {
+    "text": "Blog",
+    "href": "{{site.baseurl}}/blog"
+  },
+
+  {
+    "text": "Portfolio",
+    "href": "{{site.baseurl}}/portfolio"
+  },
+
 {% for post in site.posts reversed | sort: title %}
   {
     "text": "{{post.title | replace:'"','\"'}}",
