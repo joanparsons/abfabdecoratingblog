@@ -5,9 +5,4 @@
 {% include home_page.css %}
 {% include footer.css  %}
 {% include general_page.css %}
-
-.page-title {font-size: 30px;}
-#posts .post-title a {color: black;}
-.post-meta {background: #f4f4f4;}
-
-
+{% include blog.css %}
