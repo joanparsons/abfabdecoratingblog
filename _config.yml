@@ -15,7 +15,7 @@ description: "Creating beautiful, functional spaces"
 prose:
   rooturl: '_posts'
   siteurl: 'http://joanparsons.github.io/abfabdecoratingblog'
-  media: 'media'
+  media: 'images'
   relativeLinks: 'http://joanparsons.github.io/abfabdecoratingblog/links.jsonp'
   metadata:
     _posts:
